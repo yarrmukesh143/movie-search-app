@@ -5,7 +5,7 @@ import "./App.css";
 import TopBar from "./TopBar";
 import Footer from "./Footer";
 
-import Particle from "./react-tsparticles";
+
 
 const API_KEY = "a1e1546b"; // 🔑 Replace this with your actual key
 const API_URL = `https://www.omdbapi.com/?apikey=${API_KEY}`;
@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="app">
-        <Particle /> 
+       
        <TopBar />  {/* <-- Add it here at the very top */}
       <h1>🎬 Movie Search</h1>
 
